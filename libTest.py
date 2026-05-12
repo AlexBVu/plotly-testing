@@ -3,30 +3,6 @@
 # Author: Alex Vu
 
 import plotly.express as px
-import cmath, math
-
-
-def math():
-    # [mils pk-pk, degrees]
-    O = cmath.rect(5.6, math.radians(135))
-    OT = cmath.rect(3.3, math.radians(238))
-    TW = cmath.rect(74, math.radians(315))
-
-    T = OT - O
-    IC = TW / T
-    HS = O * IC
-    CW = -HS
-    
-    amplitude = abs(CW)
-    angle = math.degrees(cmath.phase(CW)) % 360
-
-    return [amplitude, angle]
-
-def influence():
-    correction = math()
-    fig = px.scatter_polar(correction, r="amplitude", theta="angle")
-    fig.show()
-
 
 def windPlot():
     df = px.data.wind()

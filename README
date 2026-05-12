@@ -8,9 +8,14 @@ Description of the problem:
   libraries and how to add tooltips.
 
 Description of files:
+  demo.py:
+    The main file whose code is shown on the Streamlit webpage. It uses real 
+    numbers to show the Plotly library possibilities.
+
   libTest.py:
-    Learning to use the Plotly library on some basic data. Eventually I want to 
-    use this to make a demo for the client.
+    Learning to use the Plotly library on some basic data. 
+  polarChartDirections.py:
+    Using an example from the internet
 
 Sources used:
   https://plotly.com/python/polar-chart/#webgl-polar-chart
