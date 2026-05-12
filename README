@@ -1,0 +1,19 @@
+Name: Alex Vu
+Date: 5/11/26
+Title: BalanceKing Application spec
+
+Description of the problem:
+  BalanceKing wants to add tooltips to their plots to make it easier for clients
+  to understand. I will create a hardcoded example showing that I understand the
+  libraries and how to add tooltips.
+
+Description of files:
+  libTest.py:
+    Learning to use the Plotly library on some basic data. Eventually I want to 
+    use this to make a demo for the client.
+
+Sources used:
+  https://plotly.com/python/polar-chart/#webgl-polar-chart
+  https://rotorlab.tamu.edu/me459/Rotor%20Balancing/2016%20TPS%20Tut%20ROTOR%20BALANCING%20Pavelek.pdf
+  https://www.youtube.com/watch?v=hn_ORuvQlrE
+  https://plotly.com/python/plotly-express/
