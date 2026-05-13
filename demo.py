@@ -56,8 +56,6 @@ def scatter():
         name="T Vector"
     ))
 
-    # fig.show()
-
     st.metric(label="Alex Vu",  value="Correction Weight Calculation")
 
     st.text_area(label="Description", value="I used Plotly to make an " \
